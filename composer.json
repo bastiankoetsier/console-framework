@@ -1,0 +1,24 @@
+{
+  "name": "bytepark/db-toolbelt",
+  "description": "base framework for console apps",
+  "authors": [
+    {
+      "name": "Bastian Koetsier",
+      "email": "bk@bytepark.de"
+    }
+  ],
+  "require": {
+    "bkoetsier/base-console": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/bastiankoetsier/base-console"
+    }
+  ]
+}
