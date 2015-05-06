@@ -1,10 +1,10 @@
 {
-  "name": "bytepark/db-toolbelt",
+  "name": "bkoetsier/console-framework",
   "description": "base framework for console apps",
   "authors": [
     {
       "name": "Bastian Koetsier",
-      "email": "bk@bytepark.de"
+      "email": "bastian.koetsier@googlemail.com"
     }
   ],
   "require": {
