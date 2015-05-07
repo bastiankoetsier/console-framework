@@ -69,10 +69,7 @@ class AppNameCommand extends Command {
         $this->currentRoot = trim($this->getAppNamespace(), '\\');
         $this->setAppDirectoryNamespace();
         $this->setComposerNamespace();
-<<<<<<< HEAD
         $this->setProviderNamespace();
-=======
->>>>>>> da810d42194e06c651c5251a11e4a98434686a84
         $this->info('Application namespace set!');
         $this->composer->dumpAutoloads();
     }
@@ -126,7 +123,6 @@ class AppNameCommand extends Command {
         );
     }
 
-<<<<<<< HEAD
     protected function setProviderNamespace()
     {
         $providerFile = realpath(base_path('providers.php'));
@@ -143,8 +139,6 @@ class AppNameCommand extends Command {
         $this->replaceIn($providerFile, $search, $replace);
     }
 
-=======
->>>>>>> da810d42194e06c651c5251a11e4a98434686a84
 
 
     /**
